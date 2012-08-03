@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = '0.1.0'
   s.summary     = "A collection of classes for manipulating time-series numerical data in Ruby."
   s.description = ""
-  s.files       = ["lib/time_series.rb","lib/time_series"]
+  s.files       = Dir["lib/*"]
   s.authors     = ['adamsb6','graphomatic']
   s.homepage    = 'https://github.com/adamsb6/time-series-data'
 end
