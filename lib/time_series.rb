@@ -1,0 +1,5 @@
+require 'time_series/base.rb'
+require 'time_series/bucket.rb'
+require 'time_series/period.rb'
+require 'time_series/data_point.rb'
+require 'time_series/time.rb'
