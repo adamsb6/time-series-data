@@ -51,6 +51,8 @@ class TimeSeries
         time.to_time
       when String
         Time.parse( time )
+      when Integer, Float # assume epoch time
+        Time.at time
       else
         raise ArgumentError, "Expected Time, DateTime, Date, or parseable String, got a #{time.class}"
       end
